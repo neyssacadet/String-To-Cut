@@ -1,4 +1,5 @@
-//Initializing Express framework 
+//Initializing Express framework and bodyParser
+const bodyParser = require('body-parser');
 const express = require('express');
 const app = express();
 
@@ -11,7 +12,6 @@ function cutString (stringInput){
     
     return { return_string: processedString };
 }
-console.log(cutString("iamyourlyftdriver"));
 
 //Post route
 app.post('/test', (req, res) => {
