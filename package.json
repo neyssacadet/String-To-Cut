@@ -1,0 +1,22 @@
+{
+  "name": "string-to-cut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neyssacadet/String-To-Cut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neyssacadet/String-To-Cut/issues"
+  },
+  "homepage": "https://github.com/neyssacadet/String-To-Cut#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
